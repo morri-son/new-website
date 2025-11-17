@@ -29,7 +29,7 @@ It is a complete, verifiable record of all deliverables and how to access them. 
 
 Security is built into OCM for your **secure software supply chain**. You can **cryptographically sign and verify** every component in your supply chain to ensure its integrity and confirm its provenance. This protection extends from the initial build through every stage of your delivery pipeline.
 
-Beyond signatures, OCM uses [**immutable, globally unique component identities**]({{<relref "coordinates.md">}}). These act like tracking IDs, linking all lifecycle phases and making compliance checks, audits, and vulnerability scans easier and more reliable. With OCM, your software is **fully traceable from build to deployment**, providing an unbroken chain of custody that security teams and auditors require.
+Beyond signatures, OCM uses [**immutable, globally unique component identities**](/documentation/concepts/coordinates). These act like tracking IDs, linking all lifecycle phases and making compliance checks, audits, and vulnerability scans easier and more reliable. With OCM, your software is **fully traceable from build to deployment**, providing an unbroken chain of custody that security teams and auditors require.
 
 ### Deploy Anywhere, Even Air-Gapped
 

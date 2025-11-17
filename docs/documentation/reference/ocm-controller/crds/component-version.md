@@ -192,7 +192,9 @@ kubectl create secret generic registry-credentials --from-literal=username=$GITH
 
 `.spec.serviceAccountName` is an optional field to specify a name reference to a Service Account in the same namespace as the ComponentVersion. The controller will fetch the image pull secrets attached to the service account and use them for authentication.
 
-{{<callout context="note" title="Public OCI Repository access">}}that for a publicly accessible OCI repository, you don’t need to provide a secretRef nor serviceAccountName.{{</callout>}}
+::: note Public OCI Repository access
+For a publicly accessible OCI repository, you don’t need to provide a `secretRef` nor `serviceAccountName`.
+:::
 
 ### Interval
 

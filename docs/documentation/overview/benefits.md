@@ -24,7 +24,7 @@ With OCM, you can describe everything you deliver in a unified, machine-readable
 
 Security is built into OCM. You can **cryptographically sign and verify** every component in your supply chain to ensure its integrity or confirm its provenance.
 
-Beyond signatures, OCM uses [**immutable, globally unique component identities**]({{<relref "coordinates.md">}}). These act like tracking IDs, linking all lifecycle phases. They make compliance checks, audits, and vulnerability scans easier and more reliable. With OCM, your software is fully traceable from build to deployment.
+Beyond signatures, OCM uses [**immutable, globally unique component identities**](/documentation/concepts/coordinates). These act like tracking IDs, linking all lifecycle phases. They make compliance checks, audits, and vulnerability scans easier and more reliable. With OCM, your software is fully traceable from build to deployment.
 
 
 ### Universal Delivery
@@ -43,4 +43,4 @@ OCM is **committed to open source** and **welcomes contributions of any kind**. 
 
 ## Who is it for
 
-- 
+-
